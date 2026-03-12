@@ -1,47 +1,35 @@
 ---
+id: intro
+title: Introduction
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Digital Mannequin
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Digital Mannequin is a catalogue-based Progressive Web App (PWA) that lets retail customers virtually dress a generic mannequin with products from a store's inventory.
 
-## Getting Started
+## What it does
 
-Get started by **creating a new site**.
+Retailers upload their product catalogue — clothing items with images — and customers can mix and match items on a digital mannequin directly in the browser. No app download required.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Who it is for
 
-### What you'll need
+- **Retailers** who want to offer a visual shopping experience without building a custom app
+- **Customers** who want to visualise outfits before purchasing
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## How it works
 
-## Generate a new site
+1. Retailer uploads product images to the catalogue
+2. Background removal runs automatically via rembg
+3. Customers open the PWA and dress the mannequin with available products
+4. Outfits can be saved or shared
 
-Generate a new Docusaurus site using the **classic template**.
+## Tech stack
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+| Layer | Tool |
+|---|---|
+| Frontend | PWA (Lovable) |
+| Backend | Supabase |
+| Background removal | rembg |
+| Hosting | Vercel |
+| Docs | Docusaurus |
