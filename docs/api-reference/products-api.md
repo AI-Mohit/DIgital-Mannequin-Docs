@@ -23,6 +23,8 @@ Authorization: Bearer YOUR_SUPABASE_ANON_KEY
 
 ## Endpoints
 
+Placeholder...
+
 ### GET /products
 
 Returns all products in the catalogue.
